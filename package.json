@@ -1,0 +1,20 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.spec.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "code": "npx playwright codegen",
+    "report": "npx playwright show-report",
+    "ui": "npx playwright --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0"
+  }
+}
