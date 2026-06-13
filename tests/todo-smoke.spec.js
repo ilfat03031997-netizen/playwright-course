@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('TodoMVC smoke', () => {
+//«Переименуй test.describe в более конкретный заголовок»
+test.describe('TodoMVC smoke', () => {    
     test('добавить новую задачу', async ({ page }) => {
         await page.goto('https://todomvc.com/examples/vue/dist/#/');
 
